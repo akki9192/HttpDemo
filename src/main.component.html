@@ -1,0 +1,16 @@
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Contact</th>
+        </tr>
+    </thead>
+    <tbody>
+         <tr *ngFor="let guest of guests">
+              <td>{{ guest.id }}</td>
+              <td>{{ guest.name }}</td>
+              <td>{{ guest.contactNumber }}</td>
+          </tr>
+     </tbody>
+</table>
